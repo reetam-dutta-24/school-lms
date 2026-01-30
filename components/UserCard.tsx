@@ -8,7 +8,7 @@ import React from 'react'
 
 function UserCard({ type }: { type: string }) {
   return (
-    <div className="h-28 w-45 rounded-2xl odd:bg-[#CFCEFF] even:bg-[#FAE27C]">
+    <div className="h-28 w-45 rounded-lg odd:bg-[#CFCEFF] even:bg-[#FAE27C]">
       <p className="font-semibold text-lg">{type}</p>
     </div>
   )

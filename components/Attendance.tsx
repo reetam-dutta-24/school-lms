@@ -42,27 +42,27 @@ const data = [
 ];
 function Attendance() {
   return (
-    <div className="bg-white  w-2/3 h-full p-3 rounded-xl shadow-md">
+    <div className="bg-white  w-2/3 h-full p-3 rounded-lg shadow-md">
       {/*Header*/}
       <div className="flex  justify-between items-center mb-16">
-        <h1 className="text-black font-semibold ">Students</h1>
+        <h1 className="text-black font-bold ">Attendance</h1>
         <MoreHorizontal className="w-5 h-5 text-gray-500 cursor-pointer" />
       </div>
       {/* Bar Chart */}
       <BarChart
         style={{
-          width: "90%",
+          width: "80%",
           maxWidth: "700px",
           maxHeight: "70vh",
-          aspectRatio: 1.5,
+          aspectRatio: 1.75
         }}
-        barCategoryGap= "75%"
+        barCategoryGap= "80%"
         responsive
         data={data}
         margin={{
           top: 5,
           right: 0,
-          left: 0,
+          left: 20,
           bottom: 5,
         }}
       >
@@ -76,13 +76,13 @@ function Attendance() {
         <Bar
           dataKey="present"
           fill="#C3EBFA"
-          radius={[10, 10, 0, 0]}
+          radius={[0, 0, 0, 0]}
         
         />
         <Bar
           dataKey="absent"
           fill="#FAE27C"
-          radius={[10, 10, 0, 0]}
+          radius={[0, 0, 0, 0]}
         />
       </BarChart>
     </div>

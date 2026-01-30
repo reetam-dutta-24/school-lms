@@ -7,14 +7,14 @@ function Navbar() {
   const userName = "Reetam Dutta";
 
   return (
-    <div className='flex justify-between ml-4 p-2 mt-1'>
+    <div className='flex justify-between ml-4 p-1 mt-1'>
       {/* Search Bar */}
       <div className='text-gray-500 flex items-center p-2 gap-2 border rounded-full'>
         <Search size={16} />
         <input 
           type="text" 
           placeholder='Enter search' 
-          className='bg-transparentrounded-full outline-none border-none'
+          className='bg-transparent rounded-full outline-none border-none w-40 h-4'
         />
       </div>
 
