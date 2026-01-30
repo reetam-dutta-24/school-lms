@@ -125,7 +125,7 @@ function Menue() {
             <Link
               href={item.href}
               key={item.label}
-              className="flex items-center gap-4 p-2 text-gray-500 hover:text-black"
+              className="flex items-center gap-4 p-2 text-gray-500 hover:text-black hover:bg-[#EDF9FD] rounded-md transition-all"
             >
               <Icon size={18} className="shrink-0" /> {/* 👈 icon size here */}
               <span>{item.label}</span>

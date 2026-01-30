@@ -15,9 +15,9 @@ export default function DashboardLayout({
         </Link>
         <Menue/>
       </div>
-      <div className="w-[86%] md:w-[92%] lg:w-[84%] xl:w-[86%] bg-[#f5f6f8]">
+      <div className="w-[86%] md:w-[92%] lg:w-[84%] xl:w-[86%] bg-[#f5f6f8] flex flex-col">
         <Navbar/>
-        <div className="max-h-screen overflow-y-auto">
+        <div className="max-h-screen  overflow-y-auto">
             {children}
         </div>
       </div>
