@@ -16,6 +16,7 @@ import {
     User2,  //profile
     Settings, //settings
     LogOut, //logout
+    BarChart3, //for results
     Icon
 } from 'lucide-react'
 function Menue() {
@@ -31,38 +32,45 @@ function Menue() {
                 {
                     icon: Presentation,
                     label: "Teachers",
-                    href: "/teachers",
+                    href: "/dashboard/lists/teachers",
                 },
                 {
                     icon: GraduationCap,
                     label: "Students",
-                    href: "/students",
+                    href: "/dashboard/lists/students",
                 },
                 {
                     icon: User,
                     label: "Parents",
-                    href: "/parents",
+                    href: "/dashboard/lists/parents",
+                },
+                {
+                    icon: BookOpen,
+                    label: "Subjects",
+                    href: "/dashboard/lists/subjects",
                 },
                 {
                     icon: Users,
                     label: "Classes",
-                    href: "/classes",
-                },
-                {
-                    icon: BookOpen,
-                    label: "Lessons",
-                    href: "/lessons",
+                    href: "/dashboard/lists/sections",
+                    
+
                 },
                 {
                     icon: ClipboardCheck,
                     label: "Exams",
-                    href: "/exams",
+                    href: "/dashboard/lists/exams",
 
                 },
                 {
                     icon: FileText,
                     label: "Assignments",
-                    href: "/assignments",
+                    href: "/dashboard/lists/assignments",
+                },
+                {
+                    icon: BarChart3,
+                    label: "Results",
+                    href: "/dashboard/lists/results"
                 },
                 {
                     icon: CalendarCheck,
