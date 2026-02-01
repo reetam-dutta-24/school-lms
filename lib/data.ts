@@ -1,173 +1,173 @@
 export const scheduleEvents = [
-  // MONDAY
+  // MONDAY - February 2
   {
     title: "Mathematics",
-    start: new Date(2026, 0, 26, 8, 0),
-    end: new Date(2026, 0, 26, 9, 0),
+    start: new Date(2026, 1, 2, 8, 0),
+    end: new Date(2026, 1, 2, 9, 0),
     allDay: false,
   },
   {
     title: "English",
-    start: new Date(2026, 0, 26, 9, 0),
-    end: new Date(2026, 0, 26, 10, 0),
+    start: new Date(2026, 1, 2, 9, 0),
+    end: new Date(2026, 1, 2, 10, 0),
   },
   {
     title: "Physics",
-    start: new Date(2026, 0, 26, 10, 0),
-    end: new Date(2026, 0, 26, 11, 0),
+    start: new Date(2026, 1, 2, 10, 0),
+    end: new Date(2026, 1, 2, 11, 0),
   },
   {
     title: "Chemistry",
-    start: new Date(2026, 0, 26, 11, 0),
-    end: new Date(2026, 0, 26, 12, 0),
+    start: new Date(2026, 1, 2, 11, 0),
+    end: new Date(2026, 1, 2, 12, 0),
   },
   {
     title: "Lunch Break",
-    start: new Date(2026, 0, 26, 12, 0),
-    end: new Date(2026, 0, 26, 13, 0),
+    start: new Date(2026, 1, 2, 12, 0),
+    end: new Date(2026, 1, 2, 13, 0),
   },
   {
     title: "Computer Science Lab",
-    start: new Date(2026, 0, 26, 13, 0),
-    end: new Date(2026, 0, 26, 15, 0),
+    start: new Date(2026, 1, 2, 13, 0),
+    end: new Date(2026, 1, 2, 15, 0),
   },
 
-  // TUESDAY
+  // TUESDAY - February 3
   {
     title: "Biology",
-    start: new Date(2026, 0, 27, 8, 0),
-    end: new Date(2026, 0, 27, 9, 0),
+    start: new Date(2026, 1, 3, 8, 0),
+    end: new Date(2026, 1, 3, 9, 0),
   },
   {
     title: "History",
-    start: new Date(2026, 0, 27, 9, 0),
-    end: new Date(2026, 0, 27, 10, 0),
+    start: new Date(2026, 1, 3, 9, 0),
+    end: new Date(2026, 1, 3, 10, 0),
   },
   {
     title: "Geography",
-    start: new Date(2026, 0, 27, 10, 0),
-    end: new Date(2026, 0, 27, 11, 0),
+    start: new Date(2026, 1, 3, 10, 0),
+    end: new Date(2026, 1, 3, 11, 0),
   },
   {
     title: "Economics",
-    start: new Date(2026, 0, 27, 11, 0),
-    end: new Date(2026, 0, 27, 12, 0),
+    start: new Date(2026, 1, 3, 11, 0),
+    end: new Date(2026, 1, 3, 12, 0),
   },
   {
     title: "Lunch Break",
-    start: new Date(2026, 0, 27, 12, 0),
-    end: new Date(2026, 0, 27, 13, 0),
+    start: new Date(2026, 1, 3, 12, 0),
+    end: new Date(2026, 1, 3, 13, 0),
   },
   {
     title: "Physical Education",
-    start: new Date(2026, 0, 27, 13, 0),
-    end: new Date(2026, 0, 27, 14, 0),
+    start: new Date(2026, 1, 3, 13, 0),
+    end: new Date(2026, 1, 3, 14, 0),
   },
   {
     title: "Art",
-    start: new Date(2026, 0, 27, 14, 0),
-    end: new Date(2026, 0, 27, 15, 0),
+    start: new Date(2026, 1, 3, 14, 0),
+    end: new Date(2026, 1, 3, 15, 0),
   },
 
-  // WEDNESDAY
+  // WEDNESDAY - February 4
   {
     title: "Mathematics",
-    start: new Date(2026, 0, 28, 8, 0),
-    end: new Date(2026, 0, 28, 9, 0),
+    start: new Date(2026, 1, 4, 8, 0),
+    end: new Date(2026, 1, 4, 9, 0),
   },
   {
     title: "English",
-    start: new Date(2026, 0, 28, 9, 0),
-    end: new Date(2026, 0, 28, 10, 0),
+    start: new Date(2026, 1, 4, 9, 0),
+    end: new Date(2026, 1, 4, 10, 0),
   },
   {
     title: "Chemistry Lab",
-    start: new Date(2026, 0, 28, 10, 0),
-    end: new Date(2026, 0, 28, 12, 0),
+    start: new Date(2026, 1, 4, 10, 0),
+    end: new Date(2026, 1, 4, 12, 0),
   },
   {
     title: "Lunch Break",
-    start: new Date(2026, 0, 28, 12, 0),
-    end: new Date(2026, 0, 28, 13, 0),
+    start: new Date(2026, 1, 4, 12, 0),
+    end: new Date(2026, 1, 4, 13, 0),
   },
   {
     title: "Computer Science",
-    start: new Date(2026, 0, 28, 13, 0),
-    end: new Date(2026, 0, 28, 14, 0),
+    start: new Date(2026, 1, 4, 13, 0),
+    end: new Date(2026, 1, 4, 14, 0),
   },
   {
     title: "Library",
-    start: new Date(2026, 0, 28, 14, 0),
-    end: new Date(2026, 0, 28, 15, 0),
+    start: new Date(2026, 1, 4, 14, 0),
+    end: new Date(2026, 1, 4, 15, 0),
   },
 
-  // THURSDAY
+  // THURSDAY - February 5
   {
     title: "Physics",
-    start: new Date(2026, 0, 29, 8, 0),
-    end: new Date(2026, 0, 29, 9, 0),
+    start: new Date(2026, 1, 5, 8, 0),
+    end: new Date(2026, 1, 5, 9, 0),
   },
   {
     title: "Biology",
-    start: new Date(2026, 0, 29, 9, 0),
-    end: new Date(2026, 0, 29, 10, 0),
+    start: new Date(2026, 1, 5, 9, 0),
+    end: new Date(2026, 1, 5, 10, 0),
   },
   {
     title: "Mathematics",
-    start: new Date(2026, 0, 29, 10, 0),
-    end: new Date(2026, 0, 29, 11, 0),
+    start: new Date(2026, 1, 5, 10, 0),
+    end: new Date(2026, 1, 5, 11, 0),
   },
   {
     title: "English",
-    start: new Date(2026, 0, 29, 11, 0),
-    end: new Date(2026, 0, 29, 12, 0),
+    start: new Date(2026, 1, 5, 11, 0),
+    end: new Date(2026, 1, 5, 12, 0),
   },
   {
     title: "Lunch Break",
-    start: new Date(2026, 0, 29, 12, 0),
-    end: new Date(2026, 0, 29, 13, 0),
+    start: new Date(2026, 1, 5, 12, 0),
+    end: new Date(2026, 1, 5, 13, 0),
   },
   {
     title: "Music",
-    start: new Date(2026, 0, 29, 13, 0),
-    end: new Date(2026, 0, 29, 14, 0),
+    start: new Date(2026, 1, 5, 13, 0),
+    end: new Date(2026, 1, 5, 14, 0),
   },
   {
     title: "Club Activities",
-    start: new Date(2026, 0, 29, 14, 0),
-    end: new Date(2026, 0, 29, 15, 0),
+    start: new Date(2026, 1, 5, 14, 0),
+    end: new Date(2026, 1, 5, 15, 0),
   },
 
-  // FRIDAY
+  // FRIDAY - February 6
   {
     title: "Geography",
-    start: new Date(2026, 0, 30, 8, 0),
-    end: new Date(2026, 0, 30, 9, 0),
+    start: new Date(2026, 1, 6, 8, 0),
+    end: new Date(2026, 1, 6, 9, 0),
   },
   {
     title: "History",
-    start: new Date(2026, 0, 30, 9, 0),
-    end: new Date(2026, 0, 30, 10, 0),
+    start: new Date(2026, 1, 6, 9, 0),
+    end: new Date(2026, 1, 6, 10, 0),
   },
   {
     title: "Computer Science",
-    start: new Date(2026, 0, 30, 10, 0),
-    end: new Date(2026, 0, 30, 11, 0),
+    start: new Date(2026, 1, 6, 10, 0),
+    end: new Date(2026, 1, 6, 11, 0),
   },
   {
     title: "Economics",
-    start: new Date(2026, 0, 30, 11, 0),
-    end: new Date(2026, 0, 30, 12, 0),
+    start: new Date(2026, 1, 6, 11, 0),
+    end: new Date(2026, 1, 6, 12, 0),
   },
   {
     title: "Lunch Break",
-    start: new Date(2026, 0, 30, 12, 0),
-    end: new Date(2026, 0, 30, 13, 0),
+    start: new Date(2026, 1, 6, 12, 0),
+    end: new Date(2026, 1, 6, 13, 0),
   },
   {
     title: "Sports",
-    start: new Date(2026, 0, 30, 13, 0),
-    end: new Date(2026, 0, 30, 15, 0),
+    start: new Date(2026, 1, 6, 13, 0),
+    end: new Date(2026, 1, 6, 15, 0),
   },
 ];
 

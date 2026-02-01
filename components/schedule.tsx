@@ -17,7 +17,7 @@ const Schedule = () => (
       view='work_week'
       min={new Date(2026,0,0,7,0,0)}
       max={new Date(2026,0,0,17,0,0)}
-      style={{ height: "98%" }}
+      style={{ height: "700px" }}
       
       
         
